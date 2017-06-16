@@ -1,0 +1,19 @@
+{
+  "name": "vesic/benchmark",
+  "description": "Simple utility to measure your execution time.",
+  "type": "library",
+  "require": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "vesic",
+    "email": "dusan.vesic@gmail.com"
+  }],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Vesic\\Benchmark\\": "src/"
+    }
+  }
+}
